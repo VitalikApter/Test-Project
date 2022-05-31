@@ -5,76 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
-<body>
-    
-<header>
-    <img src="./image/logo.svg" alt="логотип">
-    <ul>
-        <li>
-            <a href="">Start your design</a>
-        </li>
-        <li><a href="">All products</a></li>
-        <li><a href="">Inspiration</a></li>
-        <li><a href="">About</a></li>
-    </ul>
-    <a href="">Account</a>
-    <img src="./image/shop.svg" alt="">
-</header>
 
-<section>
-    <h1>Fast and easy custom boxes your customers will love</h1>
-    <p>Fastest turnaround. Best prices instantly. Dieline design help available.</p>
-    <a href="">Start your design</a>
+<body>
+    <!-- Хэдер -->
+
+<header class="header container">
+    <a class="link" href="./index.html"><img src="./image/logo.svg" alt="logotip"></a>
+    <nav>
+    <ul class="list">
+        <li>
+            <a class="link" href=""><img src="./image/zvezda.svg" alt="zvezdi"> Start your design</a>
+        </li>
+        <li><a class="link" href="">All products</a></li>
+        <li><a class="link" href="">Inspiration</a></li>
+        <li><a class="link" href="" aria-label="галочка">About</a></li>
+    </ul>
+    </nav>
+    <a class="link" href=""><img src="./image/shop.svg" alt="korzina">Account</a>
+    
+</header>
+<main>
+
+<!-- Герой -->
+
+<section class="hero container">
+    <h1 class="hero-title">Fast and easy custom boxes your customers will love</h1>
+    <p class="hero-text">Fastest turnaround. Best prices instantly. Dieline design help available.</p>
+    <a class="hero-link" href="">Start your design</a>
 </section>
 
+<!-- Сертификаты -->
 
-<section>
+<section class="certification">
     <h2>Сертификаты</h2>
     <ul>
         <li>
-            <img src="./image/shopifyicon.svg" alt="логотип shopify">
+            <img src="./image/shopifyicon.svg" alt="logotip shopify">
             <p>Shopify Integrated</p>
         </li>
         <li>
-            <img src="./image/amazonicon.svg" alt="логотип amazon">
+            <img src="./image/amazonicon.svg" alt="logotip amazon">
             <p>Amazon Certified</p>
         </li>
         <li>
-            <img src="./image/fscicon.svg" alt="логотип eco-friendly">
+            <img src="./image/fscicon.svg" alt="logotip eco-friendly">
             <p>Eco-Friendly</p>
         </li>
         
     </ul>
 </section>
 
-<section>
+<!-- Продукты компании -->
+
+<section class="products">
     <h2>Products you can customize</h2>
     <a href="">Browse all products</a>
     <section>
-        <img src="./image/pramougolnik.jpg" alt="прямаякоробка">
+        <img src="./image/pramougolnik.jpg" alt="pramaja korobka">
         <h3>Custom Carton Boxes</h3>
         <p>Create a clean brand presentation with this custom carton box.</p>
         <p>Starting at:</p>
         <p>$10.44/unit</p>
-        <img src="./image/otkritajakorobka.jpg" alt="открітаякоробка">
+        <img src="./image/otkritajakorobka.jpg" alt="otkritajakorobka">
         <h3>Custom Boxes</h3>
         <p>A stylish and strong corrugated cardboard box.</p>
-        <img src="./image/packet.jpg" alt="пакетупаковка">
+        <img src="./image/packet.jpg" alt="paket upakovka">
         
         <h3>Custom Poly Mailers</h3>
         <p>A fully custom high quality self sealing poly mailer.</p>
-        <img src="./image/skotch.jpg" alt="скотч">
+        <img src="./image/skotch.jpg" alt="skotch">
         <h3>Custom Tape</h3>
         <p>High quality custom tape to seal your shipping boxes during delivery.</p>
         <p>Starting at:</p>
         <p>$12.16/unit</p>
-        <img src="./image/stiker.jpg" alt="стикер">
+        <img src="./image/stiker.jpg" alt="stiker">
         <h3>Custom Stickers</h3>
         <p>Add personality to your packages with custom stickers.</p>
         <p>Starting at:</p>
         <p>$0.41/unit</p>
-        <img src="./image/upakovbumaga.jpg" alt="">
+        <img src="./image/upakovbumaga.jpg" alt="upakovka bumagi">
         <h3>Custom Tissue Paper</h3>
         <p>The perfect addition to branding your package.</p>
         <p>Starting at:</p>
@@ -85,22 +101,24 @@
     
 </section>
 
-<section>
+<!-- Псотроение заказа -->
+
+<section class="menegment">
 
     <h2>Fast and easy custom boxes your customers will love</h2>
     <ul>
         <li>
-            <img src="./image/konvert.jpg" alt="конверт">
+            <img src="./image/konvert.jpg" alt="konvert">
             <p>You Order</p>
             <p>Design and order boxes in a few clicks.</p>
         </li>
         <li>
-            <img src="./image/razvernutiykonvert.jpg" alt="развернутыйконверт">
+            <img src="./image/razvernutiykonvert.jpg" alt="razvernutiy konvert">
             <p>We Proof</p>
             <p>Approve your designs before production.</p>
         </li>
         <li>
-            <img src="./image/konveer.jpg" alt="конвеер">
+            <img src="./image/konveer.jpg" alt="konveer">
             <p>We Print & Ship</p>
             <p>Your order gets printed and shipped with tracking.</p>
         </li>
@@ -108,21 +126,23 @@
     <a href="">Start your design</a>
 </section>
 
+<!-- Преимущества -->
+
 <section>
 <h2>The Arka advantage</h2>
 <ul>
     <li>
-        <img src="./image/trava.svg" alt="трава">
+        <img src="./image/trava.svg" alt="box s travoy">
         <h3>Eco-Friendly Material</h3>
         <p>Order as little as 10, giving you the lowest minimums in the industry at the best prices.</p>
     </li>
     <li>
-        <img src="./image/chemodan.svg" alt="чемодан">
+        <img src="./image/chemodan.svg" alt="chemodan">
         <h3>Full Outside Print</h3>
         <p>Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!</p>
     </li>
     <li>
-        <img src="./image/komp.svg" alt="компьютер">
+        <img src="./image/komp.svg" alt="komp">
         <h3>Proofing</h3>
         <p>After you order, our internal designers help make sure your designs are 100% ready for printing!</p>
     </li>
@@ -130,23 +150,27 @@
 
 </section>
 
+<!-- Запросы -->
+
 <section>
     <ul>
         <li>
-            <img src="./image/zavod.svg" alt="завод">
+            <img src="./image/zavod.svg" alt="zavod">
             <h3>Couldn't find a size you need?</h3>
             <p>We’ll work directly with you to create a fully branded packaging system.</p>
             <a href="">Request a quote</a>
         </li>
 
         <li>
-            <img src="./image/planshet.svg" alt=планшет">
+            <img src="./image/planshet.svg" alt="planshet">
             <h3>Need a free dieline template?</h3>
             <p>Let us know what size you need and we'll email an Adobe Illustrator dieline to you within 3-4 business days.</p>
             <a href="">Request dieline</a>
         </li>
     </ul>
 </section>
+
+<!-- Отзывы -->
 
 <section>
     <h2>Merchants love Arka</h2>
@@ -155,10 +179,10 @@
 <img src="./image/google.png" alt="google">
 <img src="./image/shopify.png" alt="shopify">
 <div>
-    <img src="./image/shariki.jpg" alt="шарики">
+    <img src="./image/shariki.jpg" alt="shariki">
     <div>
         <p>“Arka’s team is super fast, knowledgeable, and easy to work with - highly recommended!”</p>
-        <img src="./image/parenj.jpg" alt="">
+        <img src="./image/parenj.jpg" alt="parenj">
         <p>Jesse</p>
         <p>Subscription Catalyst</p>
         <a href="">Their story</a>
@@ -169,19 +193,19 @@
 <div>
     <div>
         <p>“I really like Arka because it’s a really nice box, I’ve gotten a lot of compliments on&nbsp;it.”</p>
-        <img src="./image/devushka.jpg" alt="девушка">
+        <img src="./image/devushka.jpg" alt="devushka">
         <p>Leslie</p>
         <p>Burgundy Fox</p>
         <a href="">Their story</a>
     </div>
-    <img src="./image/butilki.jpg" alt="">
+    <img src="./image/butilki.jpg" alt="butilki">
 </div>
 
 <div>
-    <img src="./image/serdechki.jpg" alt="">
+    <img src="./image/serdechki.jpg" alt="serdechki">
     <div>
         <p>“I love how easily it was to customize the box, and you guys were more affordable.”</p>
-        <img src="./image/para.jpg" alt="">
+        <img src="./image/para.jpg" alt="para">
         <p>Anthony</p>
         <p>Lipstick Junkie</p>
         <a href="">Their story</a>
@@ -190,13 +214,19 @@
 
     </section>
 </section>
+
+<!-- Начало работы -->
 <section>
     <h2>Let`s get to it</h2>
     <a href="">Start your design</a>
     <a href="">Browse all products</a>
 </section>
+
+</main>
+<!-- Футер -->
+
 <footer>
-    <img src="./image/logo.svg" alt="">
+    <img src="./image/logo.svg" alt="logotip">
     <ul>
         <li><a href="">Custom Design</a>
         </li>
@@ -250,15 +280,26 @@
         </li>
         <li>
             <a href="">BigCommerce</a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
         </li>
+<ul>
+    <li>
+        <a href="" aria-label="ссылка на facebook">facebook</a>
+    </li>
+    <li>
+        <a href="" aria-label="ссылка на twitter">twitter</a>
+    </li>
+    <li>
+        <a href="" aria-label="ссылка на instagram">instagram</a>
+    </li>
+</ul>
+
     </ul>
     <div>
         <p></p>
         <button class="button"></button>
     </div>
+    
 </footer>
+
 </body>
 </html>

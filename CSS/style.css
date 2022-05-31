@@ -1,0 +1,92 @@
+::root {
+  --primary-text-color: #011f3a;
+  --secondary-text-color: #777777;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: roboto, sans-serif;
+}
+p {
+  color: var(--secondary-text-color);
+}
+
+.container {
+  width: 1470px;
+}
+/* Header */
+
+.header {
+  padding-top: 19px;
+  padding-right: 24px;
+  padding-bottom: 19px;
+  padding-left: 24px;
+}
+.header .link {
+  color: #011f3a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+}
+
+/* HERO */
+
+.hero {
+  padding-top: 87px;
+  padding-bottom: 205px;
+}
+.hero-title {
+  font-size: 48px;
+  line-height: 1.16;
+  margin-bottom: 33px;
+}
+.hero-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #ffffff;
+  background: #3d5675;
+  border-radius: 44px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  padding: 19px 29px 19px 29px;
+}
+.hero-text {
+  margin-bottom: 33px;
+}
+/* Certification */
+.certification {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Products */
+.products {
+  padding-top: 57px;
+  padding-bottom: 50px;
+}
+
+/* menegment */
+.menegment {
+  padding-top: 88px;
+  padding-bottom: 100px;
+}
