@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
-<body class="container">
+<body">
     <!-- Хэдер -->
 
 <header class="header container">
     <a class="link" href="./index.html"><img src="./image/logo.svg" alt="logotip"></a>
-    <nav>
-    <ul class="list">
+    <nav class="nav">
+    <ul class="nav-list list">
         <li>
             <a class="link" href=""><img src="./image/zvezda.svg" alt="zvezdi"> Start your design</a>
         </li>
@@ -35,7 +35,7 @@
 
 <!-- Герой -->
 
-<section class="hero">
+<section class="hero container">
     <h1 class="hero-title">Fast and easy custom boxes your customers will love</h1>
     <p class="hero-text">Fastest turnaround. Best prices instantly. Dieline design help available.</p>
     <a class="hero-link" href="">Start your design</a>
@@ -43,9 +43,9 @@
 
 <!-- Сертификаты -->
 
-<section class="certification">
+<section class="certification container">
     <h2 class="certification-title">Сертификаты</h2>
-    <ul>
+    <ul class="list">
         <li>
             <img src="./image/shopifyicon.svg" alt="logotip shopify">
             <p class="certification-text">Shopify Integrated</p>
@@ -64,10 +64,10 @@
 
 <!-- Продукты компании -->
 
-<section class="products">
+<section class="products container">
     <h2 class="products-title">Products you can customize</h2>
     <a class="products-link" href="">Browse all products</a>
-    <ul class="catalog">
+    <ul class="catalog list">
         <li><img class="catalog-image" src="./image/pramougolnik.jpg" alt="pramaja korobka">
         <h3 class="catalog-title">Custom Carton Boxes</h3>
         <p class="catalog-text">Create a clean brand presentation with this custom carton box.</p>
@@ -102,10 +102,10 @@
 
 <!-- Псотроение заказа -->
 
-<section class="menegment">
+<section class="menegment container">
 
     <h2 class="menegment-title">Fast and easy custom boxes your customers will love</h2>
-    <ul class="menegment-list">
+    <ul class="menegment-list list">
         <li>
             <img class="menegment-image" src="./image/konvert.jpg" alt="konvert">
             <h3>You Order</h3>
@@ -127,7 +127,7 @@
 
 <!-- Преимущества -->
 
-<section class="advantage">
+<section class="advantage container">
 <h2 class="advantage-title">The Arka advantage</h2>
 <ul class="list">
     <li>
@@ -151,7 +151,7 @@
 
 <!-- Запросы -->
 
-<section class="requests">
+<section class="requests container">
     <ul class="list">
         <li>
             <img class="requests-image" src="./image/zavod.svg" alt="zavod">
@@ -171,54 +171,60 @@
 
 <!-- Отзывы -->
 
-<section class="feedback">
+<section class="feedback container">
     <h2>Merchants love Arka</h2>
-    <section>
-<h2>Отзывы</h2>
+    <div>
 <img src="./image/google.png" alt="google">
 <img src="./image/shopify.png" alt="shopify">
+<ul class="list">
+    <li>
 <div>
     <img src="./image/shariki.jpg" alt="shariki">
     <div>
         <p>“Arka’s team is super fast, knowledgeable, and easy to work with - highly recommended!”</p>
         <img src="./image/parenj.jpg" alt="parenj">
-        <p>Jesse</p>
-        <p>Subscription Catalyst</p>
-        <a href="">Their story</a>
+        <h3>Jesse</h3>
+        <p class="feedback-text">Subscription Catalyst</p>
+        <a class="link" href="">Their story</a>
     </div>
     
 </div>
 
+    </li>
+    <li>
 <div>
     <div>
         <p>“I really like Arka because it’s a really nice box, I’ve gotten a lot of compliments on&nbsp;it.”</p>
         <img src="./image/devushka.jpg" alt="devushka">
-        <p>Leslie</p>
-        <p>Burgundy Fox</p>
-        <a href="">Their story</a>
+        <h3>Leslie</h3>
+        <p class="feedback-text">Burgundy Fox</p>
+        <a class="link" href="">Their story</a>
     </div>
     <img src="./image/butilki.jpg" alt="butilki">
 </div>
 
+    </li>
+    <li>
 <div>
     <img src="./image/serdechki.jpg" alt="serdechki">
     <div>
         <p>“I love how easily it was to customize the box, and you guys were more affordable.”</p>
         <img src="./image/para.jpg" alt="para">
-        <p>Anthony</p>
-        <p>Lipstick Junkie</p>
-        <a href="">Their story</a>
+        <h3>Anthony</h3>
+        <p class="feedback-text">Lipstick Junkie</p>
+        <a class="link" href="">Their story</a>
     </div>
 </div>
-
-    </section>
+</li>
+    </div>
+    </ul>
 </section>
 
 <!-- Начало работы -->
 <section class="start">
-    <h2>Let`s get to it</h2>
-    <a href="">Start your design</a>
-    <a href="">Browse all products</a>
+    <h2 class="start-title">Let`s get to it</h2>
+    <a class="start-link starting" href="">Start your design</a>
+    <a class="start-link browse" href="">Browse all products</a>
 </section>
 
 </main>
@@ -226,7 +232,7 @@
 
 <footer class="footer">
     <img src="./image/logo.svg" alt="logotip">
-    <ul>
+    <ul class="list">
         <li><a href="">Custom Design</a>
         </li>
         <li>
@@ -294,8 +300,8 @@
 
     </ul>
     <div>
-        <p></p>
-        <button class="button"></button>
+        <p>Get exclusive offers and tips.</p>
+        <button class="button form">Join instantly</button>
     </div>
     
 </footer>
