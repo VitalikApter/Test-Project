@@ -17,7 +17,7 @@
     <!-- Хэдер -->
 
 <header class="header container">
-    <a class="link" href="./index.html"><img src="./image/logo.svg" alt="logotip"></a>
+    <a class="header-link" href="./index.html"><img src="./image/logo.svg" alt="logotip"></a>
     <nav class="nav">
     <ul class="nav-list list">
         <li>
@@ -28,7 +28,7 @@
         <li><a class="link" href="" aria-label="галочка">About</a></li>
     </ul>
     </nav>
-    <a class="link" href=""><img src="./image/shop.svg" alt="korzina">Account</a>
+    <a class=" accaunt link" href=""><img src="./image/shop.svg" alt="korzina">Account</a>
     
 </header>
 <main>
@@ -45,16 +45,16 @@
 
 <section class="certification container">
     <h2 class="certification-title">Сертификаты</h2>
-    <ul class="list">
-        <li>
+    <ul class="certification-list list">
+        <li class="certification-item">
             <img src="./image/shopifyicon.svg" alt="logotip shopify">
             <p class="certification-text">Shopify Integrated</p>
         </li>
-        <li>
+        <li class="certification-item">
             <img src="./image/amazonicon.svg" alt="logotip amazon">
             <p class="certification-text">Amazon Certified</p>
         </li>
-        <li>
+        <li class="certification-item">
             <img src="./image/fscicon.svg" alt="logotip eco-friendly">
             <p class="certification-text">Eco-Friendly</p>
         </li>
@@ -65,33 +65,39 @@
 <!-- Продукты компании -->
 
 <section class="products container">
+    <div class="products-container">
     <h2 class="products-title">Products you can customize</h2>
     <a class="products-link" href="">Browse all products</a>
-    <ul class="catalog list">
-        <li><img class="catalog-image" src="./image/pramougolnik.jpg" alt="pramaja korobka">
+    </div>
+    <ul class="catalog-list list">
+        <li class="catalog-item"><img class="catalog-image" src="./image/pramougolnik.jpg" alt="pramaja korobka">
         <h3 class="catalog-title">Custom Carton Boxes</h3>
-        <p class="catalog-text">Create a clean brand presentation with this custom carton box.</p>
+        <div class="catalog-container">
+        <p class="catalog-text">Create a clean brand <br> presentation with this custom <br> carton box.</p>
+        <div class="catalog-price">
         <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$10.44/unit</p></li>
-        <li><img class="catalog-image" src="./image/otkritajakorobka.jpg" alt="otkritajakorobka">
+        
+        <p class="discount-text">$10.44/unit</p></li></div>
+    </div>
+        <li class="catalog-item"><img class="catalog-image" src="./image/otkritajakorobka.jpg" alt="otkritajakorobka">
         <h3 class="catalog-title">Custom Boxes</h3>
-        <p class="catalog-text">A stylish and strong corrugated cardboard box.</p></li>
-        <li><img class="catalog-image" src="./image/packet.jpg" alt="paket upakovka">
+        <p class="catalog-text">A stylish and strong <br> corrugated cardboard box.</p></li>
+        <li class="catalog-item"><img class="catalog-image" src="./image/packet.jpg" alt="paket upakovka">
         <h3 class="catalog-title">Custom Poly Mailers</h3>
-        <p class="catalog-text">A fully custom high quality self sealing poly mailer.</p></li>
-        <li><img class="catalog-image" src="./image/skotch.jpg" alt="skotch">
+        <p class="catalog-text">A fully custom high quality self <br> sealing poly mailer.</p></li>
+        <li class="catalog-item"><img class="catalog-image" src="./image/skotch.jpg" alt="skotch">
         <h3 class="catalog-title">Custom Tape</h3>
-        <p class="catalog-text">High quality custom tape to seal your shipping boxes during delivery.</p>
+        <p class="catalog-text">High quality custom tape to <br> seal your shipping boxes <br> during delivery.</p>
         <p class="discount-text">Starting at:</p>
         <p class="discount-text">$12.16/unit</p></li>
-        <li><img class="catalog-image" src="./image/stiker.jpg" alt="stiker">
+        <li class="catalog-item"><img class="catalog-image" src="./image/stiker.jpg" alt="stiker">
         <h3 class="catalog-title">Custom Stickers</h3>
-        <p class="catalog-text">Add personality to your packages with custom stickers.</p>
+        <p class="catalog-text">Add personality to your <br> packages with custom <br> stickers.</p>
         <p class="discount-text">Starting at:</p>
         <p class="discount-text">$0.41/unit</p></li>
-        <li><img class="catalog-image" src="./image/upakovbumaga.jpg" alt="upakovka bumagi">
+        <li class="catalog-item"><img class="catalog-image" src="./image/upakovbumaga.jpg" alt="upakovka bumagi">
         <h3 class="catalog-title">Custom Tissue Paper</h3>
-        <p class="catalog-text">The perfect addition to branding your package.</p>
+        <p class="catalog-text">The perfect addition <br> to branding your package.</p>
         <p class="discount-text">Starting at:</p>
         <p class="discount-text">$6.54/unit</p></li>
     </ul>

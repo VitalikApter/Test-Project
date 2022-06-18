@@ -43,10 +43,14 @@ a {
   padding-bottom: 19px;
   padding-left: 24px;
   display: flex;
+  justify-content: space-between;
   background: #FFFFFF;
     box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
     border-radius: 0px;
   
+}
+.header-link{
+  padding-left: 24px;
 }
 .nav-list .link {
   color: #011f3a;
@@ -62,8 +66,7 @@ a {
 .nav-list{
   display: flex;
   align-items: flex-end;
-  padding-left: 330px;
-  padding-right: 400px;
+  
 }
 
 /* HERO */
@@ -71,6 +74,7 @@ a {
 .hero {
   padding-top: 87px;
   padding-bottom: 205px;
+  
 }
 .hero-title {
   font-size: 48px;
@@ -78,6 +82,7 @@ a {
   margin-bottom: 33px;
 }
 .hero-link {
+  display: inline-block;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -88,7 +93,7 @@ a {
   letter-spacing: 1.96px;
   text-transform: uppercase;
   padding: 19px 29px 19px 29px;
-  width: 228px;
+  min-width: 228px;
 }
 .hero-text {
   margin-bottom: 18px;
@@ -97,7 +102,27 @@ a {
 .certification {
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
+
+.certification-title{
+  visibility: hidden;
+}
+.certification-list{
+  display: flex;
+  padding-left: 120px;
+    padding-right: 120px;
+}
+
+.certification-item{
+  display: flex;
+  align-items: center;
+}
+
+.certification-item:not(:first-child) {
+  margin-left: 285px;
+}
+  
 
 
 .certification-text{
@@ -107,14 +132,20 @@ a {
     line-height: 1.27;
     letter-spacing: 0.6px;
     color: #A1A1A1;
+    margin-left: 16px;
 }
 
 /* Products */
 .products {
   padding-top: 57px;
   padding-bottom: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
-
+ .products-container{
+   display: flex;
+   margin-bottom: 63px;
+ }
 .products-title{
   font-weight: 400;
     font-size: 32px;
@@ -122,6 +153,7 @@ a {
 }
 
 .products-link{
+  display: inline-block;
   font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -131,12 +163,32 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     background: #3D5675;
+    padding: 13px 25px 13px 25px;
       border-radius: 44px;
-      width: 247px;
+      min-width: 247px;
+      margin-left: 540px;
 }
 
 .catalog{
   margin-bottom: 46px;
+}
+
+.catalog-container{
+  display: flex;
+  padding-left: 25px;
+}
+
+.catalog-price{
+  margin-left: 61px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+}
+.catalog-list{
+  display: flex;
+    flex-wrap: wrap;
+}
+.catalog-item{
+  width: 400px;
 }
 
 .catalog-title{
@@ -145,6 +197,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.36px;
     margin-bottom: 8px;
+    padding-left: 25px;
 }
 
 
@@ -170,6 +223,7 @@ a {
 }
 
 .catalog-link{
+  display: inline-block;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.29;
@@ -180,7 +234,7 @@ a {
         border-radius: 44px;
         font-style: normal;
       padding: 13px 25px 13px 25px;
-      width: 158px;
+
 }
 
 /* menegment */
@@ -214,7 +268,7 @@ a {
     letter-spacing: 0.36px;
 }
 .menegment-link{
-  
+  display: inline-block;
   font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -223,10 +277,10 @@ a {
     letter-spacing: 1.96px;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 13px 25px 13px 25px;
     background: #3D5675;
+    padding: 13px 26px 13px 27px;
       border-radius: 44px;
-      width: 220px;
+      min-width: 220px;
 }
 /* ADVANTAGE */
 
@@ -279,6 +333,7 @@ a {
 }
 
 .requests-link{
+  display: inline-block;
   font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -290,7 +345,7 @@ a {
     background: #FFFFFF;
     border-radius: 44px;
     padding: 13px 25px 13px 25px;
-    width: 204px;
+    min-width: 204px;
 }
 
 /* FEEDBACK */
@@ -308,6 +363,7 @@ a {
 }
 
 .feedback .link{
+  display: inline-block;
   font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -318,7 +374,7 @@ a {
     background: #F2F2F2;
     border-radius: 44px;
     padding: 13px 25px 13px 25px;
-    width: 160px;
+    min-width: 160px;
 }
 
 .feedback-text{
@@ -342,6 +398,7 @@ a {
   margin-bottom: 55px;
 }
 .start-link.browse{
+  display: inline-block;
   font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -352,9 +409,10 @@ a {
     padding: 13px 25px 13px 25px;
     background: #FFFFFF;
     border-radius: 44px;
-    width: 250px;
+    min-width: 250px;
 }
 .start-link.starting{
+  display: inline-block;
   font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -365,7 +423,7 @@ a {
     padding: 13px 25px 13px 25px;
     background: #3D5675;
       border-radius: 44px;
-      width: 220px;
+      min-width: 220px;
 }
 
   
