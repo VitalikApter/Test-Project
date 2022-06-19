@@ -21,14 +21,14 @@
     <nav class="nav">
     <ul class="nav-list list">
         <li>
-            <a class="link" href=""><img src="./image/zvezda.svg" alt="zvezdi"> Start your design</a>
+            <a class="link" href=""><img class="nav-img" src="./image/zvezda.svg" alt="zvezdi"> Start your design</a>
         </li>
         <li><a class="link" href="">All products</a></li>
         <li><a class="link" href="">Inspiration</a></li>
         <li><a class="link" href="" aria-label="галочка">About</a></li>
     </ul>
     </nav>
-    <a class=" accaunt link" href=""><img src="./image/shop.svg" alt="korzina">Account</a>
+    <a class=" accaunt link" href="">Account<img class="accaunt-img" src="./image/shop.svg" alt=""></a>
     
 </header>
 <main>
@@ -36,9 +36,11 @@
 <!-- Герой -->
 
 <section class="hero container">
-    <h1 class="hero-title">Fast and easy custom boxes your customers will love</h1>
-    <p class="hero-text">Fastest turnaround. Best prices instantly. Dieline design help available.</p>
-    <a class="hero-link" href="">Start your design</a>
+    <div class="hero-container">
+    <h1 class="hero-title">Fast and easy custom <br> boxes your customers <br> will love</h1>
+    <p class="hero-text">Fastest turnaround. Best prices instantly. <br> Dieline design help available.</p>
+    <a class="hero-link" href="">Start your design</a></div>
+    <img class="hero-img" src="./image/hero.svg" alt="korobki">
 </section>
 
 <!-- Сертификаты -->
@@ -72,13 +74,12 @@
     <ul class="catalog-list list">
         <li class="catalog-item"><img class="catalog-image" src="./image/pramougolnik.jpg" alt="pramaja korobka">
         <h3 class="catalog-title">Custom Carton Boxes</h3>
-        <div class="catalog-container">
+            <div class="catalog-container">
         <p class="catalog-text">Create a clean brand <br> presentation with this custom <br> carton box.</p>
-        <div class="catalog-price">
+            <div class="catalog-price">
         <p class="discount-text">Starting at:</p>
-        
-        <p class="discount-text">$10.44/unit</p></li></div>
-    </div>
+        <p class="discount-text">$10.44/unit</p></div></div>
+    </li>
         <li class="catalog-item"><img class="catalog-image" src="./image/otkritajakorobka.jpg" alt="otkritajakorobka">
         <h3 class="catalog-title">Custom Boxes</h3>
         <p class="catalog-text">A stylish and strong <br> corrugated cardboard box.</p></li>
@@ -87,22 +88,30 @@
         <p class="catalog-text">A fully custom high quality self <br> sealing poly mailer.</p></li>
         <li class="catalog-item"><img class="catalog-image" src="./image/skotch.jpg" alt="skotch">
         <h3 class="catalog-title">Custom Tape</h3>
-        <p class="catalog-text">High quality custom tape to <br> seal your shipping boxes <br> during delivery.</p>
+            <div class="catalog-container">
+        <p class="catalog-text">High quality custom tape to seal your shipping boxes <br> during delivery.</p>
+         <div class="catalog-price">
         <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$12.16/unit</p></li>
+        <p class="discount-text">$12.16/unit</p></li></div></div>
         <li class="catalog-item"><img class="catalog-image" src="./image/stiker.jpg" alt="stiker">
         <h3 class="catalog-title">Custom Stickers</h3>
+            <div class="catalog-container">
         <p class="catalog-text">Add personality to your <br> packages with custom <br> stickers.</p>
+            <div class="catalog-price stickers">
         <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$0.41/unit</p></li>
+        <p class="discount-text">$0.41/unit</p></li></div></div>
         <li class="catalog-item"><img class="catalog-image" src="./image/upakovbumaga.jpg" alt="upakovka bumagi">
         <h3 class="catalog-title">Custom Tissue Paper</h3>
+            <div class="catalog-container">
         <p class="catalog-text">The perfect addition <br> to branding your package.</p>
+                <div class="catalog-price perfect">
         <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$6.54/unit</p></li>
+        <p class="discount-text">$6.54/unit</p></div></div>
+    </li>
     </ul>
+    <div class="catalog-end">
     <p class="discount-text">Need unbranded stock items?</p>
-    <a class="catalog-link" href="">Shop stock</a>
+    <a class="catalog-link" href="">Shop stock</a></div>
     
 </section>
 
@@ -111,23 +120,26 @@
 <section class="menegment container">
 
     <h2 class="menegment-title">Fast and easy custom boxes your customers will love</h2>
+    
     <ul class="menegment-list list">
-        <li>
-            <img class="menegment-image" src="./image/konvert.jpg" alt="konvert">
+       
+        <li class="menegment-item">
+            <img class="menegment-image" src="./image/konvert.svg" alt="konvert">
             <h3>You Order</h3>
-            <p>Design and order boxes in a few clicks.</p>
+            <p class="menegment-text">Design and order boxes in a few clicks.</p>
         </li>
-        <li>
-            <img src="./image/razvernutiykonvert.jpg" alt="razvernutiy konvert">
+        <li class="menegment-item">
+            <img src="./image/razvernutiykonvert.svg" alt="razvernutiy konvert">
             <h3>We Proof</h3>
-            <p>Approve your designs before production.</p>
+            <p class="menegment-text">Approve your designs before production.</p>
         </li>
-        <li>
-            <img src="./image/konveer.jpg" alt="konveer">
+        <li class="menegment-item">
+            <img src="./image/konveer.svg" alt="konveer">
             <h3>We Print & Ship</h3>
-            <p>Your order gets printed and shipped with tracking.</p>
+            <p class="menegment-text">Your order gets printed and shipped with tracking.</p>
         </li>
     </ul>
+    </div>
     <a class="menegment-link" href="">Start your design</a>
 </section>
 
@@ -135,21 +147,21 @@
 
 <section class="advantage container">
 <h2 class="advantage-title">The Arka advantage</h2>
-<ul class="list">
-    <li>
+<ul class="advantage-list list">
+    <li class="advantage-item">
         <img class="advantage-image" src="./image/trava.svg" alt="box s travoy">
         <h3>Eco-Friendly Material</h3>
-        <p>Order as little as 10, giving you the lowest minimums in the industry at the best prices.</p>
+        <p class="advantage-text">Order as little as 10, giving you the lowest minimums in the industry at the best prices.</p>
     </li>
-    <li>
-        <img src="./image/chemodan.svg" alt="chemodan">
+    <li class="advantage-item">
+        <img class="advantage-image" src="./image/chemodan.svg" alt="chemodan">
         <h3>Full Outside Print</h3>
-        <p>Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!</p>
+        <p class="advantage-text">Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!</p>
     </li>
-    <li>
-        <img src="./image/komp.svg" alt="komp">
+    <li class="advantage-item">
+        <img class="advantage-image" src="./image/komp.svg" alt="komp">
         <h3>Proofing</h3>
-        <p>After you order, our internal designers help make sure your designs are 100% ready for printing!</p>
+        <p class="advantage-text">After you order, our internal designers help make sure your designs are 100% ready for printing!</p>
     </li>
 </ul>
 
@@ -158,18 +170,18 @@
 <!-- Запросы -->
 
 <section class="requests container">
-    <ul class="list">
-        <li>
+    <ul class=" requests-list list">
+        <li class="rquests-item left">
             <img class="requests-image" src="./image/zavod.svg" alt="zavod">
             <h3>Couldn't find a size you need?</h3>
-            <p>We’ll work directly with you to create a fully branded packaging system.</p>
+            <p>We’ll work directly with you to create a fully <br> branded packaging system.</p>
             <a class="requests-link" href="">Request a quote</a>
         </li>
 
-        <li>
+        <li class="requests-item right">
             <img class="requests-image" src="./image/planshet.svg" alt="planshet">
             <h3>Need a free dieline template?</h3>
-            <p>Let us know what size you need and we'll email an Adobe Illustrator dieline to you within 3-4 business days.</p>
+            <p>Let us know what size you need and we'll email an <br> Adobe Illustrator dieline to you within 3-4 business <br> days.</p>
             <a class="requests-link" href="">Request dieline</a>
         </li>
     </ul>

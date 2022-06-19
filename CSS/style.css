@@ -53,6 +53,9 @@ a {
   padding-left: 24px;
 }
 .nav-list .link {
+  display: inline-block;
+  display: flex;
+  align-items: center;
   color: #011f3a;
   font-style: normal;
   font-weight: 400;
@@ -62,24 +65,39 @@ a {
   text-transform: uppercase;
   margin-right: 25px;
 }
+.nav-img{
+  margin-right: 13px;
+}
 
 .nav-list{
   display: flex;
   align-items: flex-end;
   
 }
+.accaunt{
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+.accaunt-img{
+  margin-left: 25px;
+}
 
 /* HERO */
 
 .hero {
+  display: flex;
   padding-top: 87px;
-  padding-bottom: 205px;
+  padding-bottom: 98px;
+  background-color:#F2AE4D;
   
 }
 .hero-title {
-  font-size: 48px;
-  line-height: 1.16;
-  margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.16;
+    color: #011F3A;
+    margin-bottom: 33px;
 }
 .hero-link {
   display: inline-block;
@@ -96,13 +114,29 @@ a {
   min-width: 228px;
 }
 .hero-text {
+  font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #011F3A;
   margin-bottom: 18px;
+}
+
+
+.hero-container{
+  min-width: 500px;
+}
+.hero-img{
+  margin-left: 316px;
+  width: 504px;
+  padding-bottom: 98px;
 }
 /* Certification */
 .certification {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  background-color: #fff;
 }
 
 .certification-title{
@@ -175,13 +209,24 @@ a {
 
 .catalog-container{
   display: flex;
-  padding-left: 25px;
+  
 }
 
 .catalog-price{
   margin-left: 61px;
   padding-bottom: 30px;
   padding-right: 25px;
+  
+}
+
+
+.catalog-price.stickers{
+  margin-left: 111px;
+}
+
+
+.catalog-price.perfect{
+  margin-left: 101px;
 }
 .catalog-list{
   display: flex;
@@ -189,6 +234,9 @@ a {
 }
 .catalog-item{
   width: 400px;
+  background: #FFFFFF;
+   border: 1px solid #EDEDED;
+    border-radius: 0px;
 }
 
 .catalog-title{
@@ -212,6 +260,7 @@ a {
     font-size: 15px;
     line-height: 1.6;
     color: #777777;
+    padding-left: 25px;
 }
 
 .discount-text{
@@ -234,7 +283,15 @@ a {
         border-radius: 44px;
         font-style: normal;
       padding: 13px 25px 13px 25px;
+    margin-left: 16px;
+    
+}
 
+.catalog-end{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 46px;
 }
 
 /* menegment */
@@ -242,6 +299,8 @@ a {
   padding-top: 88px;
   padding-bottom: 100px;
   background: #72BDA3;
+  text-align: center;
+  padding-bottom: 88px;
 }
 
 .menegment-title{
@@ -251,13 +310,37 @@ a {
     text-align: center;
     margin-bottom: 47px;
 }
+
+.menegment-container{
+  display: flex;
+  
+}
 .menegment-list{
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 87px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+.menegment-item{
+  text-align: center;
+}
+
+.menegment-item+.menegment-item{
+  margin-left: 100px;
+}
 
 .menegment-image{
   margin-bottom: 12px;
+}
+
+.menegment-text{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #3D5675;
 }
 
 .menegment-list h3{
@@ -290,6 +373,11 @@ a {
 }
 
 .advantage h3{
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 1.28;
+    letter-spacing: 0.36px;
+    color: #011F3A;
   margin-bottom: 12px;
 }
 
@@ -299,6 +387,22 @@ a {
     font-size: 32px;
     line-height: 1.28;
     margin-bottom: 82px;
+    padding-left: 42px;
+}
+
+
+
+
+.advantage-list{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 162px;
+  padding-right: 162px;
+}
+
+
+.advantage-item+.advantage-item{
+  margin-left: 177px;
 }
 
 .advantage-image{
@@ -307,6 +411,13 @@ a {
   margin-bottom: 54px;
 }
 
+.advantage-text{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #A1A1A1;
+}
 
 /* REQUESTS */
 
@@ -316,11 +427,25 @@ a {
     background-color: #FFCA3A;
 }
 
+.requests-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+}
+  
+ 
+
+
 .requests-image{
   width: 210px;
   height: 210px;
   margin-bottom: 24px;
 }
+
+    
 
 
 .requests h3{
