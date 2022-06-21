@@ -6,9 +6,6 @@
 }
 
 body {
-  width: 1470px;
-    
-    
   font-family: roboto, sans-serif;
   color: var(--primary-text-color);
   background: #EEEEEE;
@@ -33,10 +30,8 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 1470px;
   margin: 0;
-  padding-left: 144px;
-    padding-right: 144px;
     outline: 2px solid red;
 }
 
@@ -53,7 +48,7 @@ a {
   background: #FFFFFF;
     box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
     border-radius: 0px;
-  
+  width: 1470px;
 }
 .header-link{
   padding-left: 24px;
@@ -96,7 +91,7 @@ a {
   padding-top: 87px;
   padding-bottom: 98px;
   background-color:#F2AE4D;
-  
+  width: 1470px;
 }
 .hero-title {
     font-weight: 400;
@@ -143,6 +138,7 @@ a {
   padding-bottom: 20px;
   text-align: center;
   background-color: #fff;
+  width: 1470px;
 }
 
 .certification-title{
@@ -303,7 +299,8 @@ a {
 /* menegment */
 .menegment {
   padding-top: 88px;
-  
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 
@@ -313,8 +310,8 @@ a {
     text-align: center;
     padding-bottom: 88px;
     width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .menegment-title{
   font-weight: 400;
@@ -383,6 +380,8 @@ a {
 .advantage{
   padding-top: 88px;
   padding-bottom: 142px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .advantage h3{
@@ -438,6 +437,8 @@ a {
   padding-top: 110px;
     padding-bottom: 90px;
     background-color: #FFCA3A;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .requests-list{
