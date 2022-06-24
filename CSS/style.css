@@ -29,12 +29,14 @@ a {
   display:block;
 }
 
-.container {
+.container-long {
   width: 1470px;
   margin: 0;
     outline: 2px solid red;
 }
-
+.container{
+  width: 1200px;
+}
 
 /* Header */
 
@@ -235,7 +237,7 @@ a {
     flex-wrap: wrap;
 }
 .catalog-item{
-  width: 400px;
+  min-width: 400px;
   background: #FFFFFF;
    border: 1px solid #EDEDED;
     border-radius: 0px;
@@ -301,18 +303,15 @@ a {
   padding-top: 88px;
   padding-left: 120px;
   padding-right: 120px;
+  background: #72BDA3;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    border-radius: 0px;
 }
-
 
 .menegment-container{
   width: 1200px;
-  background: #72BDA3;
-    text-align: center;
-    padding-bottom: 88px;
-    width: 1200px;
-    padding-left: 120px;
-    padding-right: 120px;
 }
+
 .menegment-title{
   font-weight: 400;
     font-size: 32px;
