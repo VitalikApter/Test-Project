@@ -152,6 +152,7 @@ a {
 }
 .certification-list{
   display: flex;
+  justify-content: center;
   padding-left: 120px;
     padding-right: 120px;
 }
@@ -186,6 +187,7 @@ a {
 }
  .products-container{
    display: flex;
+   justify-content: center;
    margin-bottom: 63px;
  }
 .products-title{
@@ -525,25 +527,24 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
 /* FEEDBACK */
 
 .feedback{
-  padding-bottom: 57px;
   background-color: #ffffff;
   width: 1200px;
-  padding-left: 120px;
   margin: 70px 120px 70px 120px;
 }
 .feedback-total{
   padding-top: 88px;
   
-  
 }
 
 .feedback-title{
+  display: inline-block;
   margin-left: 568px;
-  margin-bottom: 59px;
+
+  
 }
-.feedback-start{
+.feedback-start {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 190px;
@@ -551,9 +552,7 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
 }
 
 
-.feedback-img{
-  margin-left: 365px;
-}
+
 .feedback h3{
   font-weight: 400;
     font-size: 18px;
@@ -565,6 +564,35 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
   display: flex;
 }
 
+.feedback-container.first{
+justify-content: space-between;
+}
+
+.feedback-left{
+  margin-left: 106px;
+  margin-top: 63px;
+}
+
+.feedback-right{
+margin-right: 106px;
+margin-top: 64px;
+margin-left: 106px;
+}
+
+.feedback-comment{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.feedback-name{
+  margin-left: 10px;
+}
+
+.feedback-img{
+  margin: 0;
+}
 
 
 .feedback .link{
@@ -580,6 +608,7 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
     border-radius: 44px;
     padding: 13px 25px 13px 25px;
     min-width: 160px;
+    margin-left: 18px;
 }
 
 .feedback-text{
@@ -597,11 +626,17 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
   padding-top: 120px;
   padding-bottom: 137px;
   background: #EEEEEE;
+  width: 1200px;
+    margin: 70px 120px 70px 120px;
+    text-align: center;
+  }
+
+
+
+.start-links{
+  margin-top: 56px;
 }
 
-.start-title{
-  margin-bottom: 55px;
-}
 .start-link.browse{
   display: inline-block;
   font-style: normal;
@@ -615,6 +650,7 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
     background: #FFFFFF;
     border-radius: 44px;
     min-width: 250px;
+    margin-left: 11px;
 }
 .start-link.starting{
   display: inline-block;
@@ -638,6 +674,9 @@ border-right: 1px solid rgba(161, 161, 161, 0.4);
 .footer{
   padding-top: 60px;
   padding-bottom: 77px;
+  background-color: #F2F3F4;
+  width: 1200px;
+    margin: 70px 120px 70px 120px;
 }
 
 .footer p{
