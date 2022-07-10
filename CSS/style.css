@@ -676,7 +676,7 @@ margin-left: 106px;
   justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 77px;
-  
+  outline: 2px solid red;
 }
 
 .footer-img{
@@ -713,7 +713,11 @@ margin-left: 92px;
     line-height: 1.2;
     color: #3D5675;
 }
+
+
+  
 .form{
+  
   font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -723,12 +727,21 @@ margin-left: 92px;
     background: #3D5675;
       border-radius: 44px;
       padding: 12px 36px 11px 30px;
+      
 }
 
 input{
+  background: #ffffff;
+  border:none;
   border-radius: 34px;
-  padding: 9px 182px 9px 18px;
-  }
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+height: 36px;
+min-width: 280px;
+margin-bottom: 12px;
+}
+  
   input::placeholder{
     font-family: 'Roboto';
       font-style: italic;
@@ -737,4 +750,9 @@ input{
       line-height: 1.2;
       text-align: center;
       color: rgba(61, 86, 117, 0.4);
+      width: 80px;
+  }
+
+  .footer-button{
+    border: none;
   }
