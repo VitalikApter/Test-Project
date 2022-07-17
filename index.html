@@ -17,18 +17,18 @@
     <!-- Хэдер -->
 
 <header class="header container">
-    <a class="header-link" href="./index.html"><img src="./image/logo.png" alt="logotip"></a>
-    <nav class="nav">
-    <ul class="nav-list list">
+    <a class="header__logo" href="./index.html"><img src="./image/logo.png" alt="logotip"></a>
+    <nav class="header__nav">
+    <ul class="header__list list">
         <li>
-            <a class="link" href=""><img class="nav-img" src="./image/zvezda.svg" alt="zvezdi"> Start your design</a>
+            <a class="header__link" href=""><img class="header__img" src="./image/zvezda.svg" alt="zvezdi"> Start your design</a>
         </li>
-        <li><a class="link" href="">All products</a></li>
-        <li><a class="link" href="">Inspiration</a></li>
-        <li><a class="link" href="" aria-label="галочка">About</a></li>
+        <li><a class="header__link" href="">All products</a></li>
+        <li><a class="header__link" href="">Inspiration</a></li>
+        <li><a class="header__link" href="" aria-label="галочка">About</a></li>
     </ul>
     </nav>
-    <a class=" accaunt link" href="">Account<img class="accaunt-img" src="./image/shop.svg" alt=""></a>
+    <a class=" account-link" href="">Account<img class="account-link__img" src="./image/shop.svg" alt=""></a>
     
 </header>
 <main>
@@ -36,29 +36,29 @@
 <!-- Герой -->
 
 <section class="hero container">
-    <div class="hero-container">
-    <h1 class="hero-title">Fast and easy custom <br> boxes your customers <br> will love</h1>
-    <p class="hero-text">Fastest turnaround. Best prices instantly. <br> Dieline design help available.</p>
-    <a class="hero-link" href="">Start your design</a></div>
-    <img class="hero-img" src="./image/hero.png" alt="korobki">
+    <div class="hero__container">
+    <h1 class="hero__title">Fast and easy custom <br> boxes your customers <br> will love</h1>
+    <p class="hero__text">Fastest turnaround. Best prices instantly. <br> Dieline design help available.</p>
+    <a class="hero__link" href="">Start your design</a></div>
+    <img class="hero__img" src="./image/hero.png" alt="korobki">
 </section>
 
 <!-- Сертификаты -->
 
 <section class="certification container">
-    <h2 class="certification-title">Сертификаты</h2>
-    <ul class="certification-list list">
-        <li class="certification-item">
+    <h2 class="certification__title certification__title--hidden">Сертификаты</h2>
+    <ul class="certification__list list">
+        <li class="certification__item">
             <img src="./image/shopifyicon.svg" alt="logotip shopify">
-            <p class="certification-text">Shopify Integrated</p>
+            <p class="certification__text">Shopify Integrated</p>
         </li>
-        <li class="certification-item">
+        <li class="certification__item">
             <img src="./image/amazon.svg" alt="logotip amazon">
-            <p class="certification-text">Amazon Certified</p>
+            <p class="certification__text">Amazon Certified</p>
         </li>
-        <li class="certification-item">
+        <li class="certification__item">
             <img src="./image/fscicon.svg" alt="logotip eco-friendly">
-            <p class="certification-text">Eco-Friendly</p>
+            <p class="certification__text">Eco-Friendly</p>
         </li>
         
     </ul>
@@ -67,79 +67,83 @@
 <!-- Продукты компании -->
 
 <section class="products container">
-    <div class="products-container">
-    <h2 class="products-title">Products you can customize</h2>
-    <a class="products-link" href="">Browse all products</a>
+    <div class="products__container">
+    <h2 class="products__title">Products you can customize</h2>
+    <a class="products__link" href="">Browse all products</a>
     </div>
-    <ul class="catalog-list list">
-        <li class="catalog-item"><img class="catalog-image" src="./image/pramougolnik.jpg" alt="pramaja korobka">
-        <h3 class="catalog-title">Custom Carton Boxes</h3>
+    <ul class="catalog__list list">
+        <li class="catalog__item"><img class="catalog__image" src="./image/pramougolnik.jpg" alt="pramaja korobka">
+        <h3 class="catalog__title">Custom Carton Boxes</h3>
             <div class="catalog-container">
-        <p class="catalog-text">Create a clean brand <br> presentation with this custom <br> carton box.</p>
+        <p class="catalog-container__text">Create a clean brand <br> presentation with this custom <br> carton box.</p>
             <div class="catalog-price">
-        <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$10.44/unit</p></div></div>
+        <p class="catalog-price__text">Starting at:</p>
+        <p class="catalog-price__text">$10.44/unit</p></div></div>
     </li>
-        <li class="catalog-item"><img class="catalog-image" src="./image/otkritajakorobka.jpg" alt="otkritajakorobka">
-        <h3 class="catalog-title">Custom Boxes</h3>
-        <p class="catalog-text">A stylish and strong <br> corrugated cardboard box.</p></li>
-        <li class="catalog-item"><img class="catalog-image" src="./image/packet.jpg" alt="paket upakovka">
-        <h3 class="catalog-title">Custom Poly Mailers</h3>
-        <p class="catalog-text">A fully custom high quality self <br> sealing poly mailer.</p></li>
-        <li class="catalog-item"><img class="catalog-image" src="./image/skotch.jpg" alt="skotch">
-        <h3 class="catalog-title">Custom Tape</h3>
+        <li class="catalog__item"><img class="catalog__image" src="./image/otkritajakorobka.jpg" alt="otkritajakorobka">
+        <h3 class="catalog__title">Custom Boxes</h3>
+        <p class="catalog-container__text">A stylish and strong <br> corrugated cardboard box.</p></li>
+        <li class="catalog__item"><img class="catalog__image" src="./image/packet.jpg" alt="paket upakovka">
+        <h3 class="catalog__title">Custom Poly Mailers</h3>
+        <p class="catalog-container__text">A fully custom high quality self <br> sealing poly mailer.</p></li>
+        <li class="catalog__item"><img class="catalog__image" src="./image/skotch.jpg" alt="skotch">
+        <h3 class="catalog__title">Custom Tape</h3>
             <div class="catalog-container">
-        <p class="catalog-text">High quality custom tape to seal your shipping boxes <br> during delivery.</p>
-         <div class="catalog-price">
-        <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$12.16/unit</p></li></div></div>
-        <li class="catalog-item"><img class="catalog-image" src="./image/stiker.jpg" alt="stiker">
-        <h3 class="catalog-title">Custom Stickers</h3>
+        <p class="catalog-container__text">High quality custom tape to seal your shipping boxes <br> during delivery.</p>
+        <div class="catalog-price">
+            <p class="catalog-price__text">Starting at:</p>
+            <p class="catalog-price__text">$12.16/unit</p>
+            </li>
+        </div>
+    </div>
+         
+        <li class="catalog__item"><img class="catalog__image" src="./image/stiker.jpg" alt="stiker">
+        <h3 class="catalog__title">Custom Stickers</h3>
             <div class="catalog-container">
-        <p class="catalog-text">Add personality to your <br> packages with custom <br> stickers.</p>
-            <div class="catalog-price stickers">
-        <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$0.41/unit</p></li></div></div>
-        <li class="catalog-item"><img class="catalog-image" src="./image/upakovbumaga.jpg" alt="upakovka bumagi">
-        <h3 class="catalog-title">Custom Tissue Paper</h3>
+        <p class="catalog-container__text">Add personality to your <br> packages with custom <br> stickers.</p>
+            <div class="catalog-price catalog-price--stickers">
+        <p class="catalog-price__text">Starting at:</p>
+        <p class="catalog-price__text">$0.41/unit</p></li></div></div>
+        <li class="catalog__item"><img class="catalog__image" src="./image/upakovbumaga.jpg" alt="upakovka bumagi">
+        <h3 class="catalog__title">Custom Tissue Paper</h3>
             <div class="catalog-container">
-        <p class="catalog-text">The perfect addition <br> to branding your package.</p>
-                <div class="catalog-price perfect">
-        <p class="discount-text">Starting at:</p>
-        <p class="discount-text">$6.54/unit</p></div></div>
+        <p class="catalog-container__text">The perfect addition <br> to branding your package.</p>
+                <div class="catalog-price catalog-price--perfect">
+        <p class="catalog-price__text">Starting at:</p>
+        <p class="catalog-price__text">$6.54/unit</p></div></div>
     </li>
     </ul>
     <div class="catalog-end">
-    <p class="discount-text">Need unbranded stock items?</p>
-    <a class="catalog-link" href="">Shop stock</a></div>
+    <p class="catalog-end__text ">Need unbranded stock items?</p>
+    <a class="catalog-end__link" href="">Shop stock</a></div>
     
 </section>
 
 <!-- Псотроение заказа -->
 
 <section class="menegment container-section">
-<div class="menegment-before"></div>
-    <h2 class="menegment-title">Fast and easy custom boxes your customers will love</h2>
+<div class="menegment__container"></div>
+    <h2 class="menegment__title">Fast and easy custom boxes your customers will love</h2>
     
-    <ul class="menegment-list list"> 
-        <li class="menegment-item">
-            <img class="menegment-image" src="./image/konvert.jpg" alt="konvert">
-            <h3>You Order</h3>
-            <p class="menegment-text">Design and order boxes in a few clicks.</p>
+    <ul class="menegment__list list menegment-list"> 
+        <li class="menegment__item">
+            <img class="menegment__image" src="./image/konvert.jpg" alt="konvert">
+            <h3 class="menegment-list__title">You Order</h3>
+            <p class="menegment__text">Design and order boxes in a few clicks.</p>
         </li>
-        <li class="menegment-item">
-            <img src="./image/razvernutiykonvert.jpg" alt="razvernutiy konvert">
-            <h3>We Proof</h3>
-            <p class="menegment-text">Approve your designs before production.</p>
+        <li class="menegment__item">
+            <img class="menegment__image" src="./image/razvernutiykonvert.jpg" alt="razvernutiy konvert">
+            <h3 class="menegment-list__title">We Proof</h3>
+            <p class="menegment__text">Approve your designs before production.</p>
         </li>
-        <li class="menegment-item">
-            <img src="./image/konveer.jpg" alt="konveer">
-            <h3>We Print & Ship</h3>
-            <p class="menegment-text">Your order gets printed and shipped with tracking.</p>
+        <li class="menegment__item">
+            <img class="menegment__image" src="./image/konveer.jpg" alt="konveer">
+            <h3 class="menegment-list__title">We Print & Ship</h3>
+            <p class="menegment__text">Your order gets printed and shipped with tracking.</p>
         </li>
     </ul>
     
-    <a class="menegment-link" href="">Start your design</a>
+    <a class="menegment__link" href="">Start your design</a>
 
     
 </section>
@@ -148,22 +152,22 @@
 
 <section class="advantage container">
     
-<h2 class="advantage-title">The Arka advantage</h2>
-<ul class="advantage-list list">
-    <li class="advantage-item">
-        <img class="advantage-image" src="./image/trava.png" alt="box s travoy">
-        <h3>Eco-Friendly Material</h3>
-        <p class="advantage-text">Order as little as 10, giving you the lowest minimums in the industry at the best prices.</p>
+<h2 class="advantage__title">The Arka advantage</h2>
+<ul class="advantage__list advantage-list list">
+    <li class="advantage__item">
+        <img class="advantage__image" src="./image/trava.png" alt="box s travoy">
+        <h3 class="advantage-list__title">Eco-Friendly Material</h3>
+        <p class="advantage__text">Order as little as 10, giving you the lowest minimums in the industry at the best prices.</p>
     </li>
-    <li class="advantage-item">
-        <img class="advantage-image" src="./image/chemodan.svg" alt="chemodan">
-        <h3>Full Outside Print</h3>
-        <p class="advantage-text">Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!</p>
+    <li class="advantage__item">
+        <img class="advantage__image" src="./image/chemodan.svg" alt="chemodan">
+        <h3 class="advantage-list__title">Full Outside Print</h3>
+        <p class="advantage__text">Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!</p>
     </li>
-    <li class="advantage-item">
-        <img class="advantage-image" src="./image/komp.png" alt="komp">
-        <h3>Proofing</h3>
-        <p class="advantage-text">After you order, our internal designers help make sure your designs are 100% ready for printing!</p>
+    <li class="advantage__item">
+        <img class="advantage__image" src="./image/komp.png" alt="komp">
+        <h3 class="advantage-list__title">Proofing</h3>
+        <p class="advantage__text">After you order, our internal designers help make sure your designs are 100% ready for printing!</p>
     </li>
 </ul>
 
@@ -172,78 +176,78 @@
 <!-- Запросы -->
 
 <section class="requests container-section">
-    <div class="requests-before container-section"></div>
-    <ul class=" requests-list list">
+    <div class="requests__container container-section"></div>
+    <ul class=" requests__list list">
         
-        <li class="requests-item left">
-            <img class="requests-image" src="./image/zavod.png" alt="zavod">
-            <h3>Couldn't find a size you need?</h3>
-            <p>We’ll work directly with you to create a fully <br> branded packaging system.</p>
-            <a class="requests-link" href="">Request a quote</a>
+        <li class="requests__item--left">
+            <img class="requests__image" src="./image/zavod.png" alt="zavod">
+            <h3 class="requests-title">Couldn't find a size you need?</h3>
+            <p class="requests__text">We’ll work directly with you to create a fully <br> branded packaging system.</p>
+            <a class="requests__link" href="">Request a quote</a>
         </li>
         
-        <li class="requests-item right">
-            <img class="requests-image" src="./image/planshet.png" alt="planshet">
-            <h3>Need a free dieline template?</h3>
-            <p>Let us know what size you need and we'll email an <br> Adobe Illustrator dieline to you within 3-4 business <br> days.</p>
-            <a class="requests-link" href="">Request dieline</a>
+        <li class="requests__item--right">
+            <img class="requests__image" src="./image/planshet.png" alt="planshet">
+            <h3 class="requests-title">Need a free dieline template?</h3>
+            <p class="requests__text">Let us know what size you need and we'll email an <br> Adobe Illustrator dieline to you within 3-4 business <br> days.</p>
+            <a class="requests__link" href="">Request dieline</a>
         </li>
     </ul>
 </section>
 
 <!-- Отзывы -->
 <section class="feedback-total container-section">
-<h2 class="feedback-title">Merchants love Arka</h2>
-<section class="feedback "> 
+<h2 class="feedback-total__title">Merchants love Arka</h2>
+<section class="feedback-interior "> 
     
     <div class="feedback-start">
-<img src="./image/google.png" alt="google">
-<img class="feedback-img" src="./image/shopify.png" alt="shopify"></div>
-<ul class=" feedback-list list">
-    <li class="feedback-item">
-<div class="feedback-container">
+<img class="feedback-start__img" src="./image/google.png" alt="google">
+<img class="feedback-start__img" src="./image/shopify.png" alt="shopify"></div>
+<ul class=" feedback-interior__list list">
+    <li class="feedback-interior__item">
+
     <img src="./image/shariki.jpg" alt="shariki">
-    <div class="feedback-left">
-        <p>“Arka’s team is super fast, <br> knowledgeable, and easy to work <br> with - highly recommended!”</p>
-        <div class="feedback-comment">
+    <div class="feedback-interior__left">
+        <p class="feedback-interior__text">“Arka’s team is super fast, <br> knowledgeable, and easy to work <br> with - highly recommended!”</p>
+        <div class="feedback-interior__comment">
         <img src="./image/parenj.jpg" alt="parenj">
-        <div class="feedback-name">
-        <h3>Jesse</h3>
-        <p class="feedback-text">Subscription Catalyst</p></div>
-        <a class="link" href="">Their story</a></div>
+        <div class="feedback-interior__name">
+        <h3 class="feedback-interior__title">Jesse</h3>
+        <p class="feedback-interior__text feedback-interior__text--grey">Subscription Catalyst</p></div>
+        <a class="feedback-interior__link" href="">Their story</a></div>
     </div>
     
-</div>
+
 
     </li>
-    <li class="feedback-item">
-<div class="feedback-container first">
-    <div class="feedback-right" >
-        <p>“I really like Arka because it’s a really <br> nice box, I’ve gotten a lot of <br> compliments on&nbsp;it.”</p>
-        <div class="feedback-comment">
+    <li class="feedback-interior__item feedback-interior__item--right ">
+
+    <div class="feedback-interior__right" >
+        <p class="feedback-interior__text">“I really like Arka because it’s a really <br> nice box, I’ve gotten a lot of <br> compliments on&nbsp;it.”</p>
+        <div class="feedback-interior__comment">
         <img  src="./image/devushka.jpg" alt="devushka">
-        <div class="feedback-name">
-        <h3>Leslie</h3>
-        <p class="feedback-text">Burgundy Fox</p></div>
-        <a class="link" href="">Their story</a></div>
+        <div class="feedback-interior__name">
+        <h3 class="feedback-interior__title">Leslie</h3>
+        <p class="feedback-interior__text feedback-interior__text--grey">Burgundy Fox</p></div>
+        <a class="feedback-interior__link" href="">Their story</a></div>
     </div>
-    <img class="feedback-img" src="./image/butilki.jpg" alt="butilki">
-</div>
+    <img  src="./image/butilki.jpg" alt="butilki">
+
 
     </li>
-    <li class="feedback-item">
-<div class="feedback-container">
+    <li class="feedback-interior__item">
+
     <img src="./image/serdechki.jpg" alt="serdechki">
-    <div class="feedback-left">
-        <p>“I love how easily it was to <br> customize the box, and you guys <br> were more affordable.”</p>
-        <div class="feedback-comment">
+    <div class="feedback-interior__left">
+        <p class="feedback-interior__text">“I love how easily it was to <br> customize the box, and you guys <br> were more affordable.”</p>
+        <div class="feedback-interior__comment">
         <img src="./image/para.jpg" alt="para">
-        <div class="feedback-name">
-        <h3>Anthony</h3>
-        <p class="feedback-text">Lipstick Junkie</p></div>
-        <a class="link" href="">Their story</a></div>
+        <div class="feedback-interior__name">
+        <h3 class="feedback-interior__title">Anthony</h3>
+        <p class="feedback-interior__text feedback-interior__text--grey">Lipstick Junkie</p></div>
+        <a class="feedback-interior__link" href="">Their story</a></div>
     </div>
-</div>
+
 </li>
     </div>
     </ul>
@@ -251,10 +255,10 @@
 </section>
 <!-- Начало работы -->
 <section class="start">
-    <h2 class="start-title">Let`s get to it</h2>
+    <h2 class="start__title">Let`s get to it</h2>
     <div class="start-links">
-    <a class="start-link starting" href="">Start your design</a>
-    <a class="start-link browse" href="">Browse all products</a>
+    <a class="start-links__starting" href="">Start your design</a>
+    <a class="start-links__browse" href="">Browse all products</a>
     </div>
 </section>
 
@@ -262,66 +266,64 @@
 <!-- Футер -->
 
 <footer class="footer container">
-    <img class="footer-img" src="./image/logo.png" alt="logotip">
-    <ul class="footer-list list">
-        <li class="footer-item"><a  class="footer-link" href="">Custom Design</a>
+    <img class="footer__logo" src="./image/logo.png" alt="logotip">
+    <ul class="footer__list list">
+        <li class="footer__item"><a  class="footer-link" href="">Custom Design</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">All Products</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">All Products</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Inspiration</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Inspiration</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Sustainability</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Sustainability</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Affiliate Program</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Affiliate Program</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Request Custom Quote</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Request Custom Quote</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Request Dieline</a>
-        </li>
-    </ul>
-
-    <ul class="footer-list list">
-        <li class="footer-item">
-            <a class="footer-link" href="">About Us</a>
-        </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Blog</a>
-        </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Partners</a>
-        </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Contact Us</a>
-        </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">FAQ</a>
-        </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">Terms & Conditions</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Request Dieline</a>
         </li>
     </ul>
 
-    <ul class="footer-list list">
-        <li class="footer-item">
-            <a class="footer-link" href=""> Shopify App</a>
+    <ul class="footer__list list">
+        <li class="footer__item">
+            <a class="footer__link" href="">About Us</a>
         </li>
-        <li class="footer-item"> 
-            <a class="footer-link" href=""> 14 Day Free Shopify Trial</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Blog</a>
         </li>
-        <li class="footer-item">
-            <a class="footer-link" href="">BigCommerce</a>
+        <li class="footer__item">
+            <a class="footer__link" href="">Partners</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="">Contact Us</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="">FAQ</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="">Terms & Conditions</a>
+        </li>
+    </ul>
+
+    <ul class="footer__list list">
+        <li class="footer__item">
+            <a class="footer__link" href=""> Shopify App</a>
+        </li>
+        <li class="footer__item"> 
+            <a class="footer__link" href=""> 14 Day Free Shopify Trial</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="">BigCommerce</a>
         </li>
 <ul>
     <li>
-        <a <svg>
-            <usw
-        </svg>>facebook</a>
+        <a href="" aria-label="ссылка на facebook">facebook</a>
     </li>
     <li>
         <a href="" aria-label="ссылка на twitter">twitter</a>
@@ -333,13 +335,13 @@
 
     </ul>
     <div class="footer-container">
-        <p>Get exclusive offers and tips.</p>
+        <p class="footer-container__text">Get exclusive offers and tips.</p>
         <form class="footer-form"  name="email" autocomplete="on" novalidate>
-            <label class="footer-label" for="email">
-                <input type="email" name="email" placeholder="Your email">
+            <label  for="email">
+                <input class="footer-form__input" type="email" name="email" placeholder="Your email">
                 
             </label>
-            <button class="footer-button form">Join instantly</button>
+            <button class="footer__button ">Join instantly</button>
         </form>
         
     </div>
