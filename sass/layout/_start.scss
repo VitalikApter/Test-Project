@@ -11,25 +11,22 @@
 
 .start-links {
     margin-top: 56px;
-}
-
-.start-links__browse {
-    display: inline-block;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: 1.96px;
-    text-transform: uppercase;
-    color: #3D5675;
-    padding: 13px 25px 13px 25px;
-    background: #FFFFFF;
-    border-radius: 44px;
-    min-width: 250px;
-    margin-left: 11px;
-}
-
-.start-links__starting {
+    &__browse {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.29;
+            letter-spacing: 1.96px;
+            text-transform: uppercase;
+            color: #3D5675;
+            padding: 13px 25px 13px 25px;
+            background: #FFFFFF;
+            border-radius: 44px;
+            min-width: 250px;
+            margin-left: 11px;
+        }
+&__starting {
     display: inline-block;
     font-style: normal;
     font-weight: 700;
@@ -43,3 +40,7 @@
     border-radius: 44px;
     min-width: 220px;
 }
+}
+
+
+

@@ -4,36 +4,42 @@
     text-align: center;
     background-color: #fff;
     width: 1470px;
+    &__list {
+            display: flex;
+            justify-content: center;
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+
+                &__text {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 1.27;
+                    letter-spacing: 0.6px;
+                    color: #A1A1A1;
+                    margin-left: 16px;
+                }
 }
 
-.certification__title--hidden {
-    visibility: hidden;
-}
-
-.certification__list {
-    display: flex;
-    justify-content: center;
-    padding-left: 120px;
-    padding-right: 120px;
-}
 
 .certification__item {
     display: flex;
     align-items: center;
+
+    &:not(:first-child) {
+        margin-left: 285px;
+    }
+}
+.certification__title--hidden {
+    visibility: hidden;
 }
 
-.certification__item:not(:first-child) {
-    margin-left: 285px;
-}
 
 
 
-.certification__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.27;
-    letter-spacing: 0.6px;
-    color: #A1A1A1;
-    margin-left: 16px;
-}
+
+
+
+
+

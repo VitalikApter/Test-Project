@@ -9,34 +9,30 @@
     box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
     border-radius: 0px;
     width: 1470px;
-}
-
-.header__logo {
-    padding-left: 24px;
-}
-
-.header__link {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    color: #011f3a;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: 1.96px;
-    text-transform: uppercase;
-    margin-right: 25px;
-}
-
-.header__img {
-    margin-right: 13px;
-}
-
-.header__list {
-    display: flex;
-    align-items: flex-end;
-
+    &__logo {
+            padding-left: 24px;
+        }
+        &__link {
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            color: #011f3a;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.29;
+            letter-spacing: 1.96px;
+            text-transform: uppercase;
+            margin-right: 25px;
+        }
+         &__img {
+             margin-right: 13px;
+         }
+        &__list {
+            display: flex;
+            align-items: flex-end;
+    
+        }
 }
 
 .account-link {
@@ -50,9 +46,18 @@
     letter-spacing: 1.96px;
     text-transform: uppercase;
     margin-right: 25px;
+
+    &__img {
+        margin-left: 25px;
+    }
 }
 
 
-.account-link__img {
-    margin-left: 25px;
-}
+
+
+
+
+
+
+
+
